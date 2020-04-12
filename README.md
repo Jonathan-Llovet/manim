@@ -15,6 +15,25 @@ You can find the original manim repository here:
 - [3b1b/manim](https://github.com/3b1b/manim)
 I have included extensions of manim provided by the community. Many thanks to Alexander Vázquez (Elteoremadebeethoven) for being so helpful with learning manim and supporting the community.
 
+## Usage
+I recommend using docker-compose to run manim. This simplifies the otherwise difficult installation process, and it helps prevent potential conflicts between dependencies here and other applications on your workstation.
+
+- If it is not already installed, you'll need to [install Docker](https://docs.docker.com/get-docker/).
+- Following this, create a file `.env` in the root of the project (i.e., `manim/.env`).
+    - This will contain environment variables for your manim container.
+- In `.env`, specify the `INPUT_PATH` that contains the Scenes that you want to render
+    - `INPUT_PATH=/Users/me/manim/`
+- Then specify the `OUTPUT_PATH` that will be the output directory for artifacts created by manim.
+    - `OUTPUT_PATH=/Users/me/manim/outputAnimations/`
+- Following this, inside the `manim` directory, run `docker-compose build`
+    - This will generate a docker image that you can render your scenes in.
+    - The `INPUT_PATH` and `OUTPUT_PATH` environment variables that you specified in `.env` are used to create volumes between your host machine and the docker image, which will allow docker to read and write files to and from your host machine in the mapped directories.
+        - See [this page](https://docs.docker.com/storage/volumes/) for more information about volumes in docker.
+- Finally, you can render your scenes in manim. Try one of the example scenes or one from opening_questions:
+    - `docker-compose run manim example_scenes.py WarpSquare -l`
+    - `docker-compose run manim opening_questions/learning_manim/learning_manim_001.py Shape -l`
+- Syntax: `docker-compose run manim <relative_path_to_scene>.py <classname> [flags]`
+
 ### Resources for Learning Manim
 - Elteoremadebeethoven
     - [Manim Tutorial Youtube Series](https://www.youtube.com/watch?v=ENMyFGmq5OA&list=PL2B6OzTsMUrwo4hA3BBfS7ZR34K361Z8F)
