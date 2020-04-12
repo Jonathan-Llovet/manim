@@ -98,6 +98,7 @@ from manimlib.utils.space_ops import *
 from manimlib.utils.strings import *
 
 # Non manim libraries that are also nice to have without thinking
+from manimlib.communitylib.utils.intersections import *
 
 import inspect
 import itertools as it
