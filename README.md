@@ -21,6 +21,8 @@ I recommend using docker-compose to run manim. This simplifies the otherwise dif
 ### Install Docker
 If it is not already installed, you'll need to [install Docker](https://docs.docker.com/get-docker/).
 
+---
+
 ### Create .env for Environment Variables
 Following this, create a file `.env` in the root of the project (i.e., `manim/.env`).
 - This will contain environment variables for your manim container.
@@ -36,6 +38,8 @@ Then specify the `OUTPUT_PATH` that will be the output directory for artifacts c
 The `INPUT_PATH` and `OUTPUT_PATH` environment variables that you specified in `.env` are used to create volumes between your host machine and the docker image, which will allow docker to read and write files to and from your host machine in the mapped directories.
     - See [this page](https://docs.docker.com/storage/volumes/) for more information about volumes in docker.
 
+---
+
 ### Building a Manim Docker Image
 Following this, inside the `manim` directory, run the following:
 ```shell
@@ -43,6 +47,8 @@ docker-compose build
 ```
 
 This will generate a docker image that you can render your scenes in.
+
+---
 
 ### Running Manim
 Finally, you can render your scenes in manim. Try one of the example scenes or one from opening_questions:
@@ -61,6 +67,7 @@ Syntax:
 ```
 docker-compose run manim <relative_path_to_scene>.py <classname> [flags]
 ```
+
 
 ## Resources
 ### Resources for Learning Manim
