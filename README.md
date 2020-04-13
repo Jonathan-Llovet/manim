@@ -24,6 +24,8 @@ Thanks to Alexander Vázquez (Elteoremadebeethoven) for being so helpful with le
 ## Usage
 I recommend using docker-compose to run manim. This simplifies the otherwise difficult installation process, and it helps prevent potential conflicts between dependencies here and other applications on your workstation.
 
+---
+
 ### Install Docker
 If it is not already installed, you'll need to [install Docker](https://docs.docker.com/get-docker/).
 
@@ -33,13 +35,19 @@ If it is not already installed, you'll need to [install Docker](https://docs.doc
 Following this, create a file `.env` in the root of the project (i.e., `manim/.env`).
 - This will contain environment variables for your manim container.
 
-In `.env`, specify the `INPUT_PATH` that contains the Scenes that you want to render.
+```shell
+cd manim
+touch .env
+```
 
-```INPUT_PATH=/Users/me/manim/```
+In `.env`, specify the `INPUT_PATH` that contains the Scenes that you want to render.
 
 Then specify the `OUTPUT_PATH` that will be the output directory for artifacts created by manim.
 
-```OUTPUT_PATH=/Users/me/manim/outputAnimations/```
+```
+INPUT_PATH=/Users/me/manim/
+OUTPUT_PATH=/Users/me/manim/outputAnimations/
+```
 
 The `INPUT_PATH` and `OUTPUT_PATH` environment variables that you specified in `.env` are used to create volumes between your host machine and the docker image, which will allow docker to read and write files to and from your host machine in the mapped directories.
     - See [this page](https://docs.docker.com/storage/volumes/) for more information about volumes in docker.
