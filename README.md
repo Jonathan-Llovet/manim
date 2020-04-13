@@ -1,4 +1,4 @@
-# Opening Questions Manim
+# Opening Questions - Manim
 
 ## About
 Code for videos on the [Opening Questions](https://www.youtube.com/channel/UCRQ5gGxixCkYamF5S3sU1hA) Youtube channel.
@@ -10,10 +10,16 @@ Projects with source code will have links to their own repositories.
 Animations can be found in [opening-questions-manim/opening\_questions](https://github.com/Jonathan-Llovet/opening-questions-manim/tree/master/opening_questions)
 
 The animations are made with the manim math animation engine, which was originally made by Grant Sanderson for 3b1b. Many thanks to Grant for creating this powerful tool, sharing it with the world, and making videos that help us see what's wonderful about math.
-You can find the original manim repository here:
 
-- [3b1b/manim](https://github.com/3b1b/manim)
-I have included extensions of manim provided by the community. Many thanks to Alexander Vázquez (Elteoremadebeethoven) for being so helpful with learning manim and supporting the community.
+- [3b1b/manim on Github](https://github.com/3b1b/manim)
+- [3b1b on Youtube](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+- [www.3blue1brown.com](https://www.3blue1brown.com/)
+
+I have included extensions of manim provided by the community in my scenes:
+
+Thanks to Alexander Vázquez (Elteoremadebeethoven) for being so helpful with learning manim and supporting the community.
+- [Elteoremadebeethoven on Github](https://github.com/Elteoremadebeethoven)
+- [Theory of Beethoven on Youtube (English)](https://www.youtube.com/channel/UCxiWCEdx7aY88bSEUgLOC6A)
 
 ## Usage
 I recommend using docker-compose to run manim. This simplifies the otherwise difficult installation process, and it helps prevent potential conflicts between dependencies here and other applications on your workstation.
