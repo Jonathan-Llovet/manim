@@ -42,8 +42,14 @@ This will generate a docker image that you can render your scenes in.
 
 ### Running Manim
 Finally, you can render your scenes in manim. Try one of the example scenes or one from opening_questions:
-    ```docker-compose run manim example_scenes.py WarpSquare -l```
-    ```docker-compose run manim opening_questions/learning_manim/learning_manim_001.py Shape -l```
+
+    ```
+    docker-compose run manim example_scenes.py WarpSquare -l
+    ```
+
+    ```
+    docker-compose run manim opening_questions/learning_manim/learning_manim_001.py Shape -l
+    ```
 
 Syntax: 
     ```docker-compose run manim <relative_path_to_scene>.py <classname> [flags]```
