@@ -88,10 +88,12 @@ docker-compose run manim <relative_path_to_scene>.py <classname> [flags]
 - Elteoremadebeethoven
     - [Manim Tutorial Youtube Series](https://www.youtube.com/watch?v=ENMyFGmq5OA&list=PL2B6OzTsMUrwo4hA3BBfS7ZR34K361Z8F)
     - [Animations With Manim](https://github.com/Elteoremadebeethoven/AnimationsWithManim)
+- EulerTour
+    - [EulerTour v2 - Web Based Version of Manim](https://eulertour.com/docs)
+    - [Euler Tour, a web based sandbox for manim](https://eulertour.com/lab/example_scenes)
 - malhotra5
     - [Manim-Tutorial](https://github.com/malhotra5/Manim-Tutorial)
     - [Manim-Guide](https://github.com/malhotra5/Manim-Guide)
-- [Euler Tour, a web based sandbox for manim](https://eulertour.com/lab/example_scenes)
 - [Guided Tour from Talking Physics](https://talkingphysics.wordpress.com/2019/01/08/getting-started-animating-with-manim-and-python-3-7/)
 - [Manim Documentation](https://manim.readthedocs.io/en/latest/index.html) (In Progress - Please contribute!)
 - [Reddit/r/manim/](https://www.reddit.com/r/manim/)
@@ -100,8 +102,9 @@ docker-compose run manim <relative_path_to_scene>.py <classname> [flags]
 - [Manim Discord](https://discord.gg/mMRrZQW)
 
 ### Related Projects
-- [Manim.js](https://github.com/JazonJiao/Manim.js)
-- [Primer](https://github.com/Helpsypoo/primer)
+- [eulerv2 - Web based frontend to manim](https://github.com/eulertour/eulerv2)
+- [Manim.js - Manim in JavaScript](https://github.com/JazonJiao/Manim.js)
+- [Primer - Animations with Blobs](https://github.com/Helpsypoo/primer)
 - [krassowski/jupyter-manim](https://github.com/krassowski/jupyter-manim)
 - [Vivek Verma](https://github.com/vivek3141)
     - [vcubingx on Youtube](https://www.youtube.com/channel/UCv0nF8zWevEsSVcmz6mlw6A)
