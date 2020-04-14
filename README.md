@@ -96,9 +96,20 @@ docker-compose run manim <relative_path_to_scene>.py <classname> [flags]
 - [Manim Documentation](https://manim.readthedocs.io/en/latest/index.html) (In Progress - Please contribute!)
 - [Reddit/r/manim/](https://www.reddit.com/r/manim/)
 
+### Community
+- [Manim Discord](https://discord.gg/mMRrZQW)
+
 ### Related Projects
 - [Manim.js](https://github.com/JazonJiao/Manim.js)
 - [Primer](https://github.com/Helpsypoo/primer)
+- [krassowski/jupyter-manim](https://github.com/krassowski/jupyter-manim)
+- [Vivek Verma](https://github.com/vivek3141)
+    - [vcubingx on Youtube](https://www.youtube.com/channel/UCv0nF8zWevEsSVcmz6mlw6A)
+- [Aathish Sivasubrahmanian](https://gitlab.com/aathish04/manim-projects/-/tree/master/)
+    - [In Awe of Atoms](https://gitlab.com/aathish04/manim-projects/-/blob/master/In%20Awe%20of%20Atoms/AtomThroughAges.py)
+- [TheRookieNerd/ManimMiniProjects](https://github.com/TheRookieNerd/ManimMiniProjects)
+    - [The Rookie Nerds on Youtube](https://www.youtube.com/channel/UC88BHsvZyAbyBLjSoF_-OCA)
+- [patrickshox/Ferrers-Diagrams](https://github.com/patrickshox/Ferrers-Diagrams)
 
 ### Other Animation Tools
 - [Unity](https://unity.com/)
