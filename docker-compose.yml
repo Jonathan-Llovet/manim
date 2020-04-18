@@ -6,6 +6,8 @@ services:
     image: eulertour/manim:latest
     # uncomment this line to build rather than pull the image
     build: .
+    environment:
+      - .env
     entrypoint:
       - manim
       - --media_dir=/tmp/output
