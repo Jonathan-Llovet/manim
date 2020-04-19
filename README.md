@@ -7,7 +7,7 @@ Opening Questions is here to make resources for people to learn and engage with 
 
 Projects with source code will have links to their own repositories.
 
-Animations can be found in [opening-questions-manim/opening\_questions](https://github.com/Jonathan-Llovet/opening-questions-manim/tree/master/opening_questions)
+Animations can be found in [opening-questions-animations](https://github.com/Jonathan-Llovet/opening-questions-animations)
 
 The animations are made with the manim math animation engine, which was originally made by Grant Sanderson for 3b1b. Many thanks to Grant for creating this powerful tool, sharing it with the world, and making videos that help us see what's wonderful about math.
 
