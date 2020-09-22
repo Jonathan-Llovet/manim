@@ -5,7 +5,7 @@ Custom version of the animation library manim to run code for videos on the [Ope
 
 Opening Questions is here to make resources for people to learn and engage with computer science, programming, math and science (and how they have developed throughout history), and philosophy.
 
-The code for Opening Questions' animations can be found in [opening-questions-animations](https://github.com/Jonathan-Llovet/opening-questions-animations)
+The code for Opening Questions' animations can be found in [opening-questions-animations](https://github.com/jllovet/opening-questions-animations)
 
 The manim math animation engine, was originally made by Grant Sanderson for 3b1b. Many thanks to Grant for creating this powerful tool, sharing it with the world, and making videos that help us see what's wonderful about math.
 
